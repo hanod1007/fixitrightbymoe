@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Home Renovation</title>
+
+<style>
+body {
+  margin:0;
+  font-family: Arial;
+  background:#f5f7fa;
+  color:#333;
+}
+
+/* HERO */
+.hero {
+  height:420px;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url('https://images.unsplash.com/photo-1507089947368-19c1da9775ae');
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:white;
+}
+
+.hero h1 {
+  font-size:42px;
+  margin-bottom:10px;
+}
+
+.hero p {
+  font-size:18px;
+}
+
+/* SECTION */
+.section {
+  padding:70px 100px;
+}
+
+/* INTRO BOX */
+.intro {
+  max-width:900px;
+  margin:auto;
+  text-align:center;
+}
+
+/* CARDS */
+.cards {
+  display:flex;
+  flex-wrap:wrap;
+  gap:25px;
+  margin-top:40px;
+}
+
+.card {
+  flex:1;
+  min-width:230px;
+  background:white;
+  padding:30px;
+  border-radius:12px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.08);
+  transition:0.3s;
+}
+
+.card:hover {
+  transform:translateY(-8px);
+}
+
+.card h3 {
+  color:#f59e0b;
+}
+
+/* WHY SECTION */
+.why {
+  background:white;
+  margin-top:60px;
+  padding:40px;
+  border-radius:12px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.05);
+}
+
+/* BUTTON */
+button {
+  background:#f59e0b;
+  border:none;
+  padding:14px 30px;
+  margin-top:30px;
+  border-radius:6px;
+  color:white;
+  font-size:16px;
+  cursor:pointer;
+}
+
+button:hover {
+  background:#d97706;
+}
+
+/* BACK */
+.back {
+  text-align:center;
+  margin:50px 0;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+<div>
+<h1>Home Renovation</h1>
+<p>Transform your home with professional renovation services</p>
+</div>
+</div>
+
+<!-- CONTENT -->
+<div class="section">
+
+<div class="intro">
+<h2 style="color:#f59e0b;">About Our Renovation Services</h2>
+<p>We specialize in high-quality home renovations designed to improve comfort, style, and value. From modern upgrades to full remodels, we deliver clean and professional results every time.</p>
+</div>
+
+<!-- SERVICES -->
+<div class="cards">
+
+<div class="card">
+<h3>Kitchen Renovation</h3>
+<p>Upgrade your kitchen with modern design and functionality.</p>
+</div>
+
+<div class="card">
+<h3>Bathroom Renovation</h3>
+<p>Transform your bathroom into a clean and stylish space.</p>
+</div>
+
+<div class="card">
+<h3>Basement Finishing</h3>
+<p>Create additional living space with a finished basement.</p>
+</div>
+
+<div class="card">
+<h3>Flooring Installation</h3>
+<p>Professional flooring solutions for a fresh new look.</p>
+</div>
+
+</div>
+
+<!-- WHY -->
+<div class="why">
+<h2 style="color:#f59e0b;">Why Choose Us</h2>
+<p>We focus on quality workmanship, attention to detail, and customer satisfaction. Our goal is to deliver results that not only look great but also last for years.</p>
+</div>
+
+<button onclick="window.location.href='tel:6479707753'">Call Now</button>
+
+<div class="back">
+<a href="index.html" style="color:#f59e0b;">← Back to Home</a>
+</div>
+
+</div>
+
+</body>
+</html>
